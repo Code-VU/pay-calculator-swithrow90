@@ -3,10 +3,10 @@ def calculatePay():
     #print("calculating pay")
     
     # This first line is provided for you
-    input_hrs = input('Enter Hours: ')
-    input_rate = input('Enter Rate: ')
+    hrs = input('Enter Hours: ')
+    rate = input('Enter Rate: ')
 
-    PAY = float(input_hrs) * float(input_rate)
+    PAY = float(hrs) * float(rate)
 
     print(PAY)
     
